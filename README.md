@@ -1,4 +1,4 @@
-# WalrOS Lovable Tweak — Usa Lovable gastando 0 créditos.
+# WalrOS Lovable Tweak — Usa Lovable gastando 0 créditos. 🦭🪙
 
 **La extensión definitiva para Lovable: usa TODAS las funciones SIN GASTAR CRÉDITOS.**
 
