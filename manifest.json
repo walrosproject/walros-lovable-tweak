@@ -1,0 +1,77 @@
+{
+  "manifest_version": 3,
+  "name": "WalrOS Lovable Tweak",
+  "version": "4.3.1",
+  "description": "WalrOS Lovable Tweak con backend local V3 context prompt test.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "tabs",
+    "sidePanel",
+    "cookies"
+  ],
+  "host_permissions": [
+    "https://*.lovable.dev/*",
+    "https://api.lovable.dev/*",
+    "https://lovable.dev/*",
+    "https://lovable-api.com/*",
+    "https://qrbkzvsgwuyctgcmnwny.supabase.co/*",
+    "https://storage.googleapis.com/*",
+    "http://127.0.0.1/*",
+    "http://localhost/*"
+  ],
+  "action": {
+    "default_icon": "logo.png"
+  },
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.lovable.dev/*",
+        "https://lovable.dev/*",
+        "https://api.lovable.dev/*"
+      ],
+      "js": [
+        "jszip.min.js",
+        "hwFingerprint.js",
+        "sounds.js",
+        "i18n.js",
+        "pix-checkout.js",
+        "content-templates.js",
+	"msg-cache.js",
+	"v3-rewriter.js",
+        "content.js"
+      ],
+      "css": [
+        "floating.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "pageHook.js",
+        "sounds/error-payment.mp3",
+        "sounds/error-ratelimit.mp3",
+        "sounds/error-token.mp3",
+        "logo.png"
+      ],
+      "matches": [
+        "https://*.lovable.dev/*",
+        "https://lovable.dev/*"
+      ]
+    }
+  ]
+}
