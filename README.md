@@ -34,7 +34,7 @@ Al entrar a cualquier proyecto de lovable.dev, la extensión añade un panel flo
 | **Enviar prompt** | Envía comandos a Lovable **sin gastar créditos** |
 | Quitar marca de agua | Elimina la marca de agua "Made with Lovable" del proyecto |
 | Activar/Desactivar escudo | Bloquea/desbloquea el input de Lovable |
-| Usar chat normal | Alterna entre chat nativo y modo extensión |
+| Usar chat normal | Alterna entre chat nativo y modo extensión **RECOMENDABLE USAR ESTE MODO SIEMPRE POR MERA COMODIDAD.++ |
 | Descargar todos los archivos | Descarga el proyecto completo en un ZIP |
 | Optimizar con IA | Mejora el prompt actual antes de enviarlo |
 | Voz | Dictado por voz (speech-to-text) |
