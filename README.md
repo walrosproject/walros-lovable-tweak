@@ -1,44 +1,74 @@
-# WalrOS Lovable Tweak — Usa Lovable gastando 0 créditos. 🦭🪙
+# 🦭🪙 WalrOS Lovable Tweak — Usa Lovable sin gastar créditos.
 
-**La extensión definitiva para Lovable: usa TODAS las funciones SIN GASTAR CRÉDITOS.**
-
----
-
-## ¿Qué hace esto?
-
-**WalrOS Lovable Tweak** te permite usar Lovable **sin consumir créditos**. 
-
-Envíar prompts, adjuntar archivos, corregir errores, refactorizar código... **TODO sin gastar un solo crédito**.
-
-**El truco:** Lovable muestra una burbuja de "Corregir error" (que es gratuita), y nuestra extensión la reemplaza por tu prompt real. **Lovable nunca se entera.**
+**Extensión para navegador que inyecta un panel flotante con herramientas avanzadas en [lovable.dev](https://lovable.dev).**
 
 ---
 
-## Características
+## ⚡ La función principal: **AHORRO DE CRÉDITOS**
 
-- ✅ **0 créditos consumidos** por cada prompt
-- ✅ Adjunta archivos (PDF, imágenes, código, etc.)
-- ✅ Funciona con el chat nativo de Lovable
-- ✅ No modifica el backend de Lovable
-- ✅ Reescritura visual instantánea
-- ✅ Soporte para licencias (modo PRO)
+**WalrOS Lovable Tweak** te permite usar Lovable **sin consumir créditos**.
 
----
+- ✅ **0 créditos** por cada prompt
+- ✅ **Todas las funciones** de Lovable disponibles
+- ✅ **Archivos adjuntos** incluidos (PDF, imágenes, código, etc.)
+- ✅ **Congela tu saldo** — gastas 0, siempre
 
-## Requisitos
-
-- **Navegador Chrome/Edge/Brave** (con soporte para extensiones)
-- **Cuenta en Lovable** (y al menos 1 crédito disponible)
-- **Licencia WalrOS** (Hablar con w4lr0s en Discord)
-
-> ⚠️ **IMPORTANTE:** Necesitas tener **al menos 1 crédito** en tu cuenta de Lovable para que el sistema funcione. No te preocupes, **NO se consumirá** — solo es necesario para que la API de Lovable acepte la petición.
+> ⚠️ **Requisito:** Necesitas tener **al menos 1 crédito** en tu cuenta de Lovable para que la API acepte la petición. No se consumirá, solo es necesario para que el sistema funcione.
 
 ---
 
-## Instalación
+## 🔧 ¿Cómo funciona?
 
-### 1. Clonar el repositorio
+El sistema envía a Lovable un payload con `intent: 'fix_error'`, que activa la burbuja de "Corregir error" (gratuita). Luego, la extensión reemplaza esa burbuja por tu prompt real.
 
-```bash
-git clone https://github.com/tu-usuario/walros-lovable-tweak.git
-cd walros-lovable-tweak
+**Lovable no detecta el cambio.**
+
+---
+
+## Qué hace (además de ahorrar créditos)
+
+Al entrar a cualquier proyecto de lovable.dev, la extensión añade un panel flotante en la esquina inferior derecha con:
+
+| Botón | Función |
+|---|---|
+| **Enviar prompt** | Envía comandos a Lovable **sin gastar créditos** |
+| Quitar marca de agua | Elimina la marca de agua "Made with Lovable" del proyecto |
+| Activar/Desactivar escudo | Bloquea/desbloquea el input de Lovable |
+| Usar chat normal | Alterna entre chat nativo y modo extensión |
+| Descargar todos los archivos | Descarga el proyecto completo en un ZIP |
+| Optimizar con IA | Mejora el prompt actual antes de enviarlo |
+| Voz | Dictado por voz (speech-to-text) |
+| Adjuntar archivo | Adjunta archivos al prompt (máx. 10) |
+| Chips de atajos | 9 plantillas de prompt predefinidas (bugs, refactor, SEO, UI, etc.) |
+
+Funciones adicionales:
+- Selector de idioma (español / inglés) con traducción completa de la UI
+- Panel de notificaciones
+- Sistema de licencias con modo gratuito
+
+---
+
+## 💰 Licencias
+
+La extensión funciona en modo gratuito con funciones limitadas. Para acceso completo:
+
+| Plan | Precio | Duración |
+|------|--------|----------|
+| **PRO** | 10€ | 30 días |
+
+**Compra tu licencia [AQUÍ](https://www.g2g.com/categories/lovable-gift-cards/offer/group?fa=8ad68442%3A9c02b7fd&region_id=0f76ac42-3267-4d77-9fba-f9d9d719dac9)**
+
+---
+
+## 📦 Instalación
+
+1. Descarga o clona este repositorio
+2. Abre Chrome y ve a `chrome://extensions`
+3. Activa el **Modo desarrollador** (toggle arriba a la derecha)
+4. Haz clic en **Cargar descomprimida**
+5. Selecciona la carpeta `WalrOS_Lovable_Tweaker`
+6. Entra a cualquier proyecto en [lovable.dev](https://lovable.dev) — el panel aparece solo
+
+---
+
+
