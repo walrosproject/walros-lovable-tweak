@@ -56,14 +56,14 @@ La extensión funciona en modo gratuito con funciones limitadas. Para acceso com
 |------|--------|----------|
 | **PRO** | 10€ | 30 días |
 
-**Compra tu licencia [AQUÍ]([https://www.g2g.com/categories/lovable-gift-cards/offer/group?fa=8ad68442%3A9c02b7fd&region_id=0f76ac42-3267-4d77-9fba-f9d9d719dac9](https://www.g2g.com/categories/lovable-gift-cards/offer/G1783642017130CT?region_id=0f76ac42-3267-4d77-9fba-f9d9d719dac9&seller=m0rs1))**
+### **Compra tu licencia [AQUÍ]([https://www.g2g.com/categories/lovable-gift-cards/offer/G1783642017130CT?region_id=0f76ac42-3267-4d77-9fba-f9d9d719dac9&seller=m0rs1)** ⬅️
 
 ---
 
 ## 📦 Instalación
 
 1. Descarga o clona este repositorio
-2. Abre Chrome y ve a `chrome://extensions`
+2. Abre tu navegador (por ej. Chrome) y ve a `chrome://extensions`
 3. Activa el **Modo desarrollador** (toggle arriba a la derecha)
 4. Haz clic en **Cargar descomprimida**
 5. Selecciona la carpeta WalrOS_Lovable_Tweaker, que está dentro de la carpeta principal. ⚠️ No selecciones la carpeta walros-lovable-tweak-main; de lo contrario, te dará un error y la extensión no se cargará.
