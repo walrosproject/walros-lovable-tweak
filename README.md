@@ -56,7 +56,7 @@ La extensión funciona en modo gratuito con funciones limitadas. Para acceso com
 |------|--------|----------|
 | **PRO** | 10€ | 30 días |
 
-### **Compra tu licencia [AQUÍ]([https://www.g2g.com/categories/lovable-gift-cards/offer/G1783642017130CT?region_id=0f76ac42-3267-4d77-9fba-f9d9d719dac9&seller=m0rs1)** ⬅️
+### **Compra tu licencia [AQUÍ](https://www.g2g.com/categories/lovable-gift-cards/offer/G1783642017130CT?region_id=0f76ac42-3267-4d77-9fba-f9d9d719dac9&seller=m0rs1)** ⬅️
 
 ---
 
