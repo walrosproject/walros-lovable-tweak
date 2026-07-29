@@ -19,7 +19,7 @@
 
 ## 🔧 ¿Cómo funciona?
 
-El sistema envía a Lovable un payload con `intent: 'fix_error'`, que activa la burbuja de "Corregir error" (gratuita). Luego, la extensión reemplaza esa burbuja por tu prompt real.
+El sistema envía a Lovable un payload que activa la burbuja de "Corregir error" (gratuita). Luego, la extensión reemplaza esa burbuja por tu prompt real.
 
 **Lovable no detecta el cambio.**
 
